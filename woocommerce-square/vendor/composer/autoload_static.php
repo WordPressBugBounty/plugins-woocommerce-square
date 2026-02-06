@@ -7,23 +7,23 @@ namespace Composer\Autoload;
 class ComposerStaticInit4c70b80160c4b990b0d3bad8735c5662
 {
     public static $prefixLengthsPsr4 = array (
-        'a' => 
+        'a' =>
         array (
             'apimatic\\jsonmapper\\' => 20,
         ),
-        'U' => 
+        'U' =>
         array (
             'Unirest\\' => 8,
         ),
-        'S' => 
+        'S' =>
         array (
             'Square\\' => 7,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\Log\\' => 8,
         ),
-        'C' => 
+        'C' =>
         array (
             'Core\\' => 5,
             'CoreInterfaces\\' => 15,
@@ -31,36 +31,36 @@ class ComposerStaticInit4c70b80160c4b990b0d3bad8735c5662
     );
 
     public static $prefixDirsPsr4 = array (
-        'apimatic\\jsonmapper\\' => 
+        'apimatic\\jsonmapper\\' =>
         array (
             0 => __DIR__ . '/..' . '/apimatic/jsonmapper/src',
         ),
-        'Unirest\\' => 
+        'Unirest\\' =>
         array (
             0 => __DIR__ . '/..' . '/apimatic/unirest-php/src',
         ),
-        'Square\\' => 
+        'Square\\' =>
         array (
             0 => __DIR__ . '/..' . '/square/square/src',
         ),
-        'Psr\\Log\\' => 
+        'Psr\\Log\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/log/Psr/Log',
         ),
-        'Core\\' => 
+        'Core\\' =>
         array (
             0 => __DIR__ . '/..' . '/apimatic/core/src',
         ),
-        'CoreInterfaces\\' => 
+        'CoreInterfaces\\' =>
         array (
             0 => __DIR__ . '/..' . '/apimatic/core-interfaces/src',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'R' => 
+        'R' =>
         array (
-            'Rs\\Json' => 
+            'Rs\\Json' =>
             array (
                 0 => __DIR__ . '/..' . '/php-jsonpointer/php-jsonpointer/src',
             ),
