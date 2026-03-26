@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Square 5.3.0\n"
+"Project-Id-Version: WooCommerce Square 5.3.1\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-square\n"
-"POT-Creation-Date: 2026-03-05 21:01:29+00:00\n"
+"POT-Creation-Date: 2026-03-26 14:44:33+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -90,7 +90,7 @@ msgid "We couldn't apply the discount. Please try again later."
 msgstr ""
 
 #: includes/Admin/Privacy.php:53 includes/Admin/Settings_Page.php:54
-#: includes/Gateway.php:94 includes/Settings.php:917
+#: includes/Gateway.php:95 includes/Settings.php:917
 msgid "Square"
 msgstr ""
 
@@ -197,7 +197,7 @@ msgid ""
 msgstr ""
 
 #: includes/Admin/Rest/WC_REST_Square_Credit_Card_Payment_Settings_Controller.php:134
-#: includes/Gateway.php:860
+#: includes/Gateway.php:861
 msgid ""
 "This setting only applies to the Apple Pay button. When Google Pay is "
 "available, the Google Pay button will always have the \"Buy with\" button "
@@ -627,17 +627,17 @@ msgid ""
 "cart."
 msgstr ""
 
-#: includes/Coupons.php:828 includes/Gateway/Cash_App_Pay_Gateway.php:861
-#: includes/Gateway/Digital_Wallet.php:476
-#: includes/Gateway/Digital_Wallet.php:609
+#: includes/Coupons.php:828 includes/Gateway/Cash_App_Pay_Gateway.php:867
+#: includes/Gateway/Digital_Wallet.php:485
+#: includes/Gateway/Digital_Wallet.php:619
 msgid "Tax"
 msgstr ""
 
 #: includes/Coupons.php:1008 includes/Coupons.php:1049
 #: includes/Framework/PaymentGateway/ApplePay/Payment_Gateway_Apple_Pay.php:558
 #: includes/Gateway/API/Requests/Orders.php:464
-#: includes/Gateway/Cash_App_Pay_Gateway.php:853
-#: includes/Gateway/Digital_Wallet.php:601
+#: includes/Gateway/Cash_App_Pay_Gateway.php:859
+#: includes/Gateway/Digital_Wallet.php:611
 msgid "Shipping"
 msgstr ""
 
@@ -1183,14 +1183,14 @@ msgstr ""
 
 #: includes/Framework/PaymentGateway/ApplePay/Payment_Gateway_Apple_Pay.php:548
 #: includes/Gateway/API/Requests/Orders.php:588
-#: includes/Gateway/Cash_App_Pay_Gateway.php:869
-#: includes/Gateway/Digital_Wallet.php:617
+#: includes/Gateway/Cash_App_Pay_Gateway.php:875
+#: includes/Gateway/Digital_Wallet.php:627
 msgid "Discount"
 msgstr ""
 
 #: includes/Framework/PaymentGateway/ApplePay/Payment_Gateway_Apple_Pay.php:568
-#: includes/Gateway/Cash_App_Pay_Gateway.php:877
-#: includes/Gateway/Digital_Wallet.php:625
+#: includes/Gateway/Cash_App_Pay_Gateway.php:883
+#: includes/Gateway/Digital_Wallet.php:635
 msgid "Fees"
 msgstr ""
 
@@ -1205,7 +1205,7 @@ msgstr ""
 
 #: includes/Framework/PaymentGateway/ApplePay/Payment_Gateway_Apple_Pay_Admin.php:103
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:1192
-#: includes/Gateway.php:850
+#: includes/Gateway.php:851
 msgid "Enable / Disable"
 msgstr ""
 
@@ -1386,7 +1386,7 @@ msgstr ""
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:2833
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:3140
 #: includes/Framework/PaymentGateway/Payment_Gateway_Direct.php:612
-#: includes/Gateway/Cash_App_Pay_Gateway.php:1179
+#: includes/Gateway/Cash_App_Pay_Gateway.php:1185
 #. translators: %s transaction ID
 #. translators: %s transaction id
 #. translators: Placeholders: %s - transaction ID
@@ -1461,13 +1461,13 @@ msgstr ""
 #: includes/Gateway/API/Response_Message_Helper.php:96
 #: includes/Gateway/API/Response_Message_Helper.php:106
 #: includes/Gateway/API/Response_Message_Helper.php:109
-#: includes/Gateway/Blocks_Handler.php:126
-#: includes/Gateway/Cash_App_Pay_Blocks_Handler.php:115
-#: includes/Gateway/Cash_App_Pay_Gateway.php:183
-#: includes/Gateway/Cash_App_Pay_Gateway.php:1265
-#: includes/Gateway/Digital_Wallet.php:145 includes/Gateway/Gift_Card.php:382
-#: includes/Gateway/Payment_Form.php:226 includes/Gateway.php:382
-#: includes/Gateway.php:1199 includes/Gateway.php:1287
+#: includes/Gateway/Blocks_Handler.php:127
+#: includes/Gateway/Cash_App_Pay_Blocks_Handler.php:116
+#: includes/Gateway/Cash_App_Pay_Gateway.php:184
+#: includes/Gateway/Cash_App_Pay_Gateway.php:1271
+#: includes/Gateway/Digital_Wallet.php:146 includes/Gateway/Gift_Card.php:382
+#: includes/Gateway/Payment_Form.php:227 includes/Gateway.php:383
+#: includes/Gateway.php:1200 includes/Gateway.php:1288
 msgid "An error occurred, please try again or try an alternate form of payment."
 msgstr ""
 
@@ -1653,7 +1653,7 @@ msgid "Continue"
 msgstr ""
 
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:714
-#: includes/Gateway/Gift_Card.php:604
+#: includes/Gateway/Gift_Card.php:605
 msgid "Place order"
 msgstr ""
 
@@ -1662,13 +1662,13 @@ msgid "Thank you for your order."
 msgstr ""
 
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:1155
-#: includes/Gateway/Blocks_Handler.php:151 includes/Gateway.php:158
+#: includes/Gateway/Blocks_Handler.php:153 includes/Gateway.php:159
 #: includes/Handlers/Order.php:911
 msgid "Credit Card"
 msgstr ""
 
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:1173
-#: includes/Gateway.php:171
+#: includes/Gateway.php:172
 msgid "Pay securely using your credit card."
 msgstr ""
 
@@ -1827,7 +1827,7 @@ msgid "%1$s Refund Failed: %2$s"
 msgstr ""
 
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:2669
-#: includes/Gateway/Cash_App_Pay_Gateway.php:664 includes/Gateway.php:1382
+#: includes/Gateway/Cash_App_Pay_Gateway.php:665 includes/Gateway.php:1383
 #. translators: Placeholders: %s - payment gateway title (such as
 #. Authorize.net, Braintree, etc)
 msgid "%s Order completely refunded."
@@ -2339,7 +2339,7 @@ msgstr ""
 msgid "Failed to make request searchOrders: %s"
 msgstr ""
 
-#: includes/Gateway/Blocks_Handler.php:240
+#: includes/Gateway/Blocks_Handler.php:242
 #. translators: %1$s - opening bold HTML tag, %2$s - closing bold HTML tag,
 #. %3$s - version number
 msgid ""
@@ -2348,26 +2348,26 @@ msgid ""
 "version of WooCommerce Blocks or WooCommerce to fix these issues."
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Blocks_Handler.php:140
-#: includes/Gateway/Cash_App_Pay_Gateway.php:246
+#: includes/Gateway/Cash_App_Pay_Blocks_Handler.php:142
+#: includes/Gateway/Cash_App_Pay_Gateway.php:247
 #: includes/Handlers/Order.php:913
 msgid "Cash App Pay"
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Blocks_Handler.php:152
-#: includes/Gateway/Cash_App_Pay_Gateway.php:271
+#: includes/Gateway/Cash_App_Pay_Blocks_Handler.php:154
+#: includes/Gateway/Cash_App_Pay_Gateway.php:272
 msgid "Pay securely using Cash App Pay."
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:61
+#: includes/Gateway/Cash_App_Pay_Gateway.php:62
 msgid "Cash App Pay (Square)"
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:62
+#: includes/Gateway/Cash_App_Pay_Gateway.php:63
 msgid "Allow customers to securely pay with Cash App"
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:209
+#: includes/Gateway/Cash_App_Pay_Gateway.php:210
 #. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag, %3$s -
 #. 2-character country code, %4$s - comma separated list of 2-character country
 #. codes
@@ -2376,56 +2376,56 @@ msgid ""
 "can’t accept transactions from merchants outside of US."
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:226
+#: includes/Gateway/Cash_App_Pay_Gateway.php:227
 #. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
 msgid ""
 "You are ready to accept payments using Cash App Pay (Square)! %1$sEnable "
 "it%2$s now to start accepting payments."
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:511 includes/Gateway.php:681
+#: includes/Gateway/Cash_App_Pay_Gateway.php:512 includes/Gateway.php:682
 #. translators: %s maximum refund date.
 msgid "Refunds must be made within %s of the original payment date."
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:535 includes/Gateway.php:705
+#: includes/Gateway/Cash_App_Pay_Gateway.php:536 includes/Gateway.php:706
 msgid ""
 "Could not find original transaction tender. Please refund this transaction "
 "from your Square dashboard."
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:801
-#: includes/Gateway/Digital_Wallet.php:97
+#: includes/Gateway/Cash_App_Pay_Gateway.php:806
+#: includes/Gateway/Digital_Wallet.php:98
 msgid "via WooCommerce"
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:902
+#: includes/Gateway/Cash_App_Pay_Gateway.php:908
 #. translators: Context (product, cart, checkout or page)
 msgid "Empty payment request data for page."
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:1169
+#: includes/Gateway/Cash_App_Pay_Gateway.php:1175
 #. translators: Placeholders: %1$s - payment method title, %2$s - environment
 #. ("Test"), %3$s - transaction type (authorization/charge), %4$s - card type
 #. (mastercard, visa, ...), %5$s - last four digits of the card
 msgid "%1$s %2$s %3$s Approved for an amount of %4$s"
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:1235 includes/Gateway.php:627
+#: includes/Gateway/Cash_App_Pay_Gateway.php:1241 includes/Gateway.php:628
 #. translators: %s is the Square order ID linked to the Square order in the
 #. admin.
 msgid "Square Order ID: %s"
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:156
+#: includes/Gateway/Digital_Wallet.php:157
 msgid "Buy with GPay"
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:157
+#: includes/Gateway/Digital_Wallet.php:158
 msgid "opens in a new window"
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:185
+#: includes/Gateway/Digital_Wallet.php:189
 #. Translators: %1$s: expected location of apple pay verification file, %2$s:
 #. opening href tag with link to Square documentation, %3$s: closing href tag
 msgid ""
@@ -2434,7 +2434,7 @@ msgid ""
 "information, please read our documentation on %2$sSetting up Apple Pay%3$s."
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:201
+#: includes/Gateway/Digital_Wallet.php:205
 #. Translators: %1$s: opening bold tags, %2$s: closing strong/bold tags, %3$s:
 #. expected location of apple pay verification file, %4$s: opening href tag
 #. with link to Square documentation, %5$s: closing href tag
@@ -2444,45 +2444,45 @@ msgid ""
 "logs%2$s to find out what caused the registration to fail."
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:323
+#: includes/Gateway/Digital_Wallet.php:327
 msgid "OR"
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:432
+#: includes/Gateway/Digital_Wallet.php:441
 #. translators: product ID
 msgid "Product with the ID (%d) cannot be found."
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:448
+#: includes/Gateway/Digital_Wallet.php:457
 #. translators: 1: product name 2: quantity in stock
 msgid ""
 "You cannot add that amount of \"%1$s\"; to the cart because there is not "
 "enough stock (%2$s remaining)."
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:453
+#: includes/Gateway/Digital_Wallet.php:462
 #. translators: 1: product name
 msgid "You cannot purchase \"%1$s\" because it is currently not available."
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:534
+#: includes/Gateway/Digital_Wallet.php:543
 msgid "This payment method cannot be used for multiple shipments."
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:545
+#: includes/Gateway/Digital_Wallet.php:554
 msgid "Pending"
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:664
+#: includes/Gateway/Digital_Wallet.php:673
 #. translators: Context (product, cart, checkout or page)
 msgid "Empty payment request data for %s."
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:1001
+#: includes/Gateway/Digital_Wallet.php:1019
 msgid "Empty cart"
 msgstr ""
 
-#: includes/Gateway/Digital_Wallet.php:1136
+#: includes/Gateway/Digital_Wallet.php:1154
 msgid "Unable to verify domain with Apple Pay - missing access token."
 msgstr ""
 
@@ -2498,51 +2498,51 @@ msgstr ""
 msgid "Allow customers to purchase and redeem gift cards during checkout."
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:493
+#: includes/Gateway/Gift_Card.php:494
 msgid "Payment split"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:494
+#: includes/Gateway/Gift_Card.php:495
 msgid "Amount"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:498
+#: includes/Gateway/Gift_Card.php:499
 msgid "Gift card"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:505
+#: includes/Gateway/Gift_Card.php:506
 msgid "Credit card/Cash App Pay"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:507
+#: includes/Gateway/Gift_Card.php:508
 msgid "Credit card"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:518
+#: includes/Gateway/Gift_Card.php:519
 msgid "Have a Square Gift Card?"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:523
+#: includes/Gateway/Gift_Card.php:524
 msgid "Apply"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:532
+#: includes/Gateway/Gift_Card.php:533
 msgid "There was an error while applying the gift card."
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:537
+#: includes/Gateway/Gift_Card.php:538
 #. translators: %s - amount to be charged on the gift card.
 msgid "%s will be applied from the gift card."
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:551
+#: includes/Gateway/Gift_Card.php:552
 #. translators: %s - balance amount in the gift card after placing the order.
 msgid ""
 "The remaining gift card balance after placing this order will be "
 "<strong>%s</strong>"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:559
+#: includes/Gateway/Gift_Card.php:560
 #. translators: %1$s - remaining amount to be paid using the credit card or
 #. cash app pay; %2$s - payment method.
 msgid ""
@@ -2550,19 +2550,19 @@ msgid ""
 "remaining amount of <strong>%1$s</strong> would need to be paid with a %2$s."
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:561
+#: includes/Gateway/Gift_Card.php:562
 msgid "credit card or cash app pay"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:561 includes/Handlers/Order.php:999
+#: includes/Gateway/Gift_Card.php:562 includes/Handlers/Order.php:999
 msgid "credit card"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:568
+#: includes/Gateway/Gift_Card.php:569
 msgid "Use a different gift card"
 msgstr ""
 
-#: includes/Gateway/Payment_Form.php:168
+#: includes/Gateway/Payment_Form.php:169
 msgid "Postal code"
 msgstr ""
 
@@ -2590,23 +2590,23 @@ msgstr ""
 msgid "Update totals"
 msgstr ""
 
-#: includes/Gateway.php:95
+#: includes/Gateway.php:96
 msgid "Allow customers to use Square to securely pay with their credit cards"
 msgstr ""
 
-#: includes/Gateway.php:183 includes/Gateway.php:200 includes/Gateway.php:216
+#: includes/Gateway.php:184 includes/Gateway.php:201 includes/Gateway.php:217
 msgid "Verification failed."
 msgstr ""
 
-#: includes/Gateway.php:189
+#: includes/Gateway.php:190
 msgid "Token ID missing."
 msgstr ""
 
-#: includes/Gateway.php:227
+#: includes/Gateway.php:228
 msgid "No payment token exists for this ID."
 msgstr ""
 
-#: includes/Gateway.php:511
+#: includes/Gateway.php:512
 #. translators: %s: error message from Square
 msgid ""
 "The coupon could not be applied (e.g. redemption limit reached or code "
@@ -2614,35 +2614,35 @@ msgid ""
 "method. Error: %s"
 msgstr ""
 
-#: includes/Gateway.php:522
+#: includes/Gateway.php:523
 msgid ""
 "The coupon could not be applied. Please remove it and try again, or use a "
 "different payment method."
 msgstr ""
 
-#: includes/Gateway.php:784
+#: includes/Gateway.php:785
 msgid "Customer Profiles"
 msgstr ""
 
-#: includes/Gateway.php:785
+#: includes/Gateway.php:786
 msgid ""
 "Check to enable tokenization and allow customers to securely save their "
 "payment details for future checkout."
 msgstr ""
 
-#: includes/Gateway.php:823
+#: includes/Gateway.php:824
 msgid "UnionPay"
 msgstr ""
 
-#: includes/Gateway.php:844
+#: includes/Gateway.php:845
 msgid "Digital Wallet Settings"
 msgstr ""
 
-#: includes/Gateway.php:845
+#: includes/Gateway.php:846
 msgid "Take payments on your store with Apple Pay and Google Pay."
 msgstr ""
 
-#: includes/Gateway.php:852
+#: includes/Gateway.php:853
 #. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag
 msgid ""
 "Allow customers to pay with Apple Pay or Google Pay from your Product, Cart "
@@ -2650,58 +2650,54 @@ msgid ""
 "our %1$sdocumentation%2$s."
 msgstr ""
 
-#: includes/Gateway.php:855
+#: includes/Gateway.php:856
 msgid "Enable digital wallets"
 msgstr ""
 
-#: includes/Gateway.php:859
+#: includes/Gateway.php:860
 msgid "Button Type"
 msgstr ""
 
-#: includes/Gateway.php:861
+#: includes/Gateway.php:862
 msgid "Select which text is displayed on the digital wallet buttons."
 msgstr ""
 
-#: includes/Gateway.php:873
+#: includes/Gateway.php:874
 msgid "Apple Pay Button Color"
 msgstr ""
 
-#: includes/Gateway.php:874
+#: includes/Gateway.php:875
 msgid "Select the color of the Apple Pay button."
 msgstr ""
 
-#: includes/Gateway.php:886
+#: includes/Gateway.php:887
 msgid "Google Pay Button Color"
 msgstr ""
 
-#: includes/Gateway.php:887
+#: includes/Gateway.php:888
 msgid "Select the color of the Google Pay button."
 msgstr ""
 
-#: includes/Gateway.php:898
+#: includes/Gateway.php:899
 msgid "Hide Digital Wallet Buttons"
 msgstr ""
 
-#: includes/Gateway.php:899
+#: includes/Gateway.php:900
 msgid ""
 "Select any digital wallet buttons you don't want to be displayed on your "
 "store."
 msgstr ""
 
-#: includes/Gateway.php:1256
+#: includes/Gateway.php:1257
 msgid ""
 "Your cart contains a Square Gift Card product which can only be purchased "
 "using the Square payment gateway."
 msgstr ""
 
-#: includes/Gateway.php:1260
+#: includes/Gateway.php:1261
 msgid ""
 "Square discount codes can only be used with the Square payment gateway. "
 "Please remove the Square discount code to use another payment method."
-msgstr ""
-
-#: includes/Gateway.php:1433
-msgid "Order not found."
 msgstr ""
 
 #: includes/Handlers/Background_Job.php:250
@@ -3331,6 +3327,10 @@ msgstr ""
 msgid "Data must be a non-empty string"
 msgstr ""
 
+#: includes/Utilities/Order_Ajax_Authorization.php:30
+msgid "Invalid order."
+msgstr ""
+
 #: includes/Utilities/Token_Scope_Utility.php:60
 msgid "Square plugin not available."
 msgstr ""
@@ -3474,7 +3474,7 @@ msgstr ""
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:1727
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:3113
 #: includes/Framework/PaymentGateway/Payment_Gateway_Direct.php:592
-#: includes/Gateway/Cash_App_Pay_Gateway.php:1171
+#: includes/Gateway/Cash_App_Pay_Gateway.php:1177
 msgctxt "noun, software environment"
 msgid "Test"
 msgstr ""
@@ -3583,12 +3583,12 @@ msgctxt "coordinating conjunction for a list of items: a, b, and c"
 msgid "and"
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:1172
+#: includes/Gateway/Cash_App_Pay_Gateway.php:1178
 msgctxt "Cash App transaction type"
 msgid "Authorization"
 msgstr ""
 
-#: includes/Gateway/Cash_App_Pay_Gateway.php:1172
+#: includes/Gateway/Cash_App_Pay_Gateway.php:1178
 msgctxt "noun, Cash App transaction type"
 msgid "Charge"
 msgstr ""
