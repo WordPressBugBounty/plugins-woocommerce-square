@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Square 5.3.2\n"
+"Project-Id-Version: WooCommerce Square 5.3.3\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-square\n"
-"POT-Creation-Date: 2026-04-06 10:49:14+00:00\n"
+"POT-Creation-Date: 2026-05-07 19:08:01+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -512,84 +512,94 @@ msgstr ""
 msgid "Start sync"
 msgstr ""
 
-#: includes/Admin.php:155
+#: includes/Admin.php:158
 msgid "Inventory tracking is disabled for this product"
 msgstr ""
 
-#: includes/Admin.php:156 includes/Handlers/Products.php:244
+#: includes/Admin.php:159 includes/Handlers/Products.php:244
 msgid "Synced with Square"
 msgstr ""
 
-#: includes/Admin.php:157
+#: includes/Admin.php:160
 msgid "Managed by Square"
 msgstr ""
 
-#: includes/Admin.php:158
+#: includes/Admin.php:161
 msgid "Fetch stock from Square"
 msgstr ""
 
-#: includes/Admin.php:159
+#: includes/Admin.php:162
 msgid "Sync inventory"
 msgstr ""
 
-#: includes/Admin.php:160
+#: includes/Admin.php:163
 msgid "Sync stock from Square"
 msgstr ""
 
-#: includes/Admin.php:161
+#: includes/Admin.php:164
 msgid "Attribute name is too long, maximum allowed are 65 characters"
 msgstr ""
 
-#: includes/Admin.php:162
+#: includes/Admin.php:165
 msgid "Too many attributes, maximum allowed are 6."
 msgstr ""
 
-#: includes/Admin.php:164
+#: includes/Admin.php:167
 #. translators: %d - maximum allowed attribute values
 msgid "Too many attribute values: %d (max 250)"
 msgstr ""
 
-#: includes/Admin.php:165
+#: includes/Admin.php:168
 msgid "Too many variations, maximum allowed are 250."
 msgstr ""
 
-#: includes/Admin.php:211 includes/Sync/Records/Record.php:208
+#: includes/Admin.php:214 includes/Sync/Records/Record.php:208
 msgid "Resolved"
 msgstr ""
 
-#: includes/Admin.php:212
+#: includes/Admin.php:215
 msgid "No records found"
 msgstr ""
 
-#: includes/Admin.php:213
+#: includes/Admin.php:216
 msgid "Skipped"
 msgstr ""
 
-#: includes/Admin.php:214
+#: includes/Admin.php:217
 msgid "Updated"
 msgstr ""
 
-#: includes/Admin.php:215
+#: includes/Admin.php:218
 msgid "Imported"
 msgstr ""
 
-#: includes/Admin.php:217
+#: includes/Admin.php:220
 msgid "Enable to fetch inventory changes from Square"
 msgstr ""
 
-#: includes/Admin.php:218
+#: includes/Admin.php:221
 msgid "Enable to push inventory changes to Square"
 msgstr ""
 
-#: includes/Admin.php:221
+#: includes/Admin.php:224
 msgid "Inventory is fetched from Square periodically and updated in WooCommerce"
 msgstr ""
 
-#: includes/Admin.php:224
+#: includes/Admin.php:227
 #. translators: Placeholders: %1$s - <strong> tag, %2$s - </strong> tag
 msgid ""
 "Inventory is %1$salways fetched from Square%2$s periodically to account for "
 "sales from other channels."
+msgstr ""
+
+#: includes/Admin.php:453
+#. translators: Placeholders: %1$s - <a> tag, %2$s - </a> tag, %3$s - <a> tag,
+#. %4$s - </a> tag
+msgid ""
+"It has been a while since the last successful sync. Please manually trigger "
+"a sync from the %1$supdate page%2$s, or clear the ongoing sync from the "
+"%3$stools page%4$s if it is stuck, to ensure that your products are up to "
+"date."
 msgstr ""
 
 #: includes/Coupons.php:158
@@ -2103,7 +2113,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:660
+#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:664
 #. translators: Placeholders: %1$s - payment gateway name, %2$s - opening <a>
 #. tag, %3$s - closing </a> tag
 msgid ""
@@ -2112,7 +2122,7 @@ msgid ""
 "processing, we recommend %2$sturning off Debug Mode%3$s"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:704
+#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:708
 #. translators: Placeholders: %1$s - payment gateway title (such as
 #. Authorize.net, Braintree, etc), %2$s - <a> tag, %3$s - </a> tag
 msgid ""
@@ -2120,7 +2130,7 @@ msgid ""
 "tokenization%3$s to activate %1$s for Subscriptions."
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:726
+#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:730
 #. translators: Placeholders: %1$s - payment gateway title (such as
 #. Authorize.net, Braintree, etc), %2$s - <a> tag, %3$s - </a> tag
 msgid ""
@@ -2128,13 +2138,13 @@ msgid ""
 "tokenization%3$s to activate %1$s for Pre-Orders."
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:767
+#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:771
 msgid ""
 "You must enable tokenization for this gateway in order to support automatic "
 "renewal payments with the WooCommerce Subscriptions extension."
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:768
+#: includes/Framework/PaymentGateway/Payment_Gateway_Plugin.php:772
 msgid "Inactive"
 msgstr ""
 
@@ -2341,15 +2351,21 @@ msgid ""
 "Please try again or use an alternate card or other form of payment."
 msgstr ""
 
-#: includes/Gateway/API.php:407
+#: includes/Gateway/API.php:387
+msgid ""
+"Skipped disabling card on Square (staging/non-production site using "
+"production credentials)."
+msgstr ""
+
+#: includes/Gateway/API.php:499
 msgid "Failed to make request createOrder."
 msgstr ""
 
-#: includes/Gateway/API.php:597
+#: includes/Gateway/API.php:689
 msgid "Failed to make request updateOrder."
 msgstr ""
 
-#: includes/Gateway/API.php:833
+#: includes/Gateway/API.php:925
 #. translators: %s: Error details from the searchOrders request.
 msgid "Failed to make request searchOrders: %s"
 msgstr ""
@@ -2713,6 +2729,10 @@ msgstr ""
 msgid ""
 "Square discount codes can only be used with the Square payment gateway. "
 "Please remove the Square discount code to use another payment method."
+msgstr ""
+
+#: includes/Handlers/Background_Job.php:220
+msgid "Sync failed. Please try again"
 msgstr ""
 
 #: includes/Handlers/Background_Job.php:250
@@ -3149,7 +3169,7 @@ msgid ""
 msgstr ""
 
 #: includes/Sync/Interval_Polling.php:171
-#: includes/Sync/Manual_Synchronization.php:112
+#: includes/Sync/Manual_Synchronization.php:118
 #. translators: %1$s - product edit page URL, %2$s - Product ID, %3$s - Product
 #. type.
 msgid ""
@@ -3158,37 +3178,42 @@ msgid ""
 msgstr ""
 
 #: includes/Sync/Interval_Polling.php:202
-#: includes/Sync/Manual_Synchronization.php:1661
+#: includes/Sync/Manual_Synchronization.php:1946
 #. translators: Placeholder %1$s Product Name, %2$s Exception message
 msgid "%1$s was deleted in Square but could not be hidden in WooCommerce. %2$s."
 msgstr ""
 
 #: includes/Sync/Interval_Polling.php:237
-#: includes/Sync/Manual_Synchronization.php:1442
+#: includes/Sync/Manual_Synchronization.php:1727
 #. translators: Placeholder %1$s Product Name, %2$s Exception message
 msgid "Could not sync %1$s data from Square. %2$s."
 msgstr ""
 
-#: includes/Sync/Manual_Synchronization.php:781
+#: includes/Sync/Manual_Synchronization.php:803
+#. translators: %1$s - SKU, %2$s - Square Item 1, %3$s - Square Item 2.
+msgid "Multiple Square items share the same SKU: %1$s. Square Item IDs: %2$s, %3$s"
+msgstr ""
+
+#: includes/Sync/Manual_Synchronization.php:1034
 #. translators: Placeholder: %s - product ID
 msgid "Product #%s could not be updated."
 msgstr ""
 
-#: includes/Sync/Manual_Synchronization.php:1027
+#: includes/Sync/Manual_Synchronization.php:1280
 #. translators: Placeholder: %s - product ID
 msgid "Product %s could not be updated in Square."
 msgstr ""
 
-#: includes/Sync/Manual_Synchronization.php:1395
+#: includes/Sync/Manual_Synchronization.php:1680
 #. translators: Placeholder %s Product ID
 msgid "%s does not exist in the Square catalog."
 msgstr ""
 
-#: includes/Sync/Manual_Synchronization.php:1406
+#: includes/Sync/Manual_Synchronization.php:1691
 msgid "This product failed to be hidden."
 msgstr ""
 
-#: includes/Sync/Manual_Synchronization.php:1608
+#: includes/Sync/Manual_Synchronization.php:1893
 #. translators: %1$s - Item Variation ID
 msgid ""
 "[Pull Inventory] The product does not exist in the WooCommerce store for "
@@ -3277,25 +3302,29 @@ msgstr ""
 msgid "Alert"
 msgstr ""
 
-#: includes/Sync/Records/Record.php:374
+#: includes/Sync/Records/Record.php:209
+msgid "Failed"
+msgstr ""
+
+#: includes/Sync/Records/Record.php:375
 #. translators: Placeholder: %s - product name
 msgid "%s variation not found in Square."
 msgstr ""
 
-#: includes/Sync/Records/Record.php:380
+#: includes/Sync/Records/Record.php:381
 #. translators: Placeholder: %s - product name
 msgid "%s not found in Square."
 msgstr ""
 
-#: includes/Sync/Records/Record.php:552
+#: includes/Sync/Records/Record.php:553
 msgid "Delete"
 msgstr ""
 
-#: includes/Sync/Records/Record.php:560
+#: includes/Sync/Records/Record.php:561
 msgid "Ignore"
 msgstr ""
 
-#: includes/Sync/Records/Record.php:569
+#: includes/Sync/Records/Record.php:570
 msgid "Unlink"
 msgstr ""
 
