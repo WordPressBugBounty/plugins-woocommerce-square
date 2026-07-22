@@ -2,10 +2,10 @@
 # This file is distributed under the GPL-3.0-or-later.
 msgid ""
 msgstr ""
-"Project-Id-Version: WooCommerce Square 5.4.1\n"
+"Project-Id-Version: WooCommerce Square 5.4.2\n"
 "Report-Msgid-Bugs-To: "
 "https://wordpress.org/support/plugin/woocommerce-square\n"
-"POT-Creation-Date: 2026-06-24 18:37:39+00:00\n"
+"POT-Creation-Date: 2026-07-22 17:15:28+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -108,30 +108,6 @@ msgstr ""
 
 #: includes/Admin/Privacy.php:100
 msgid "Square User Data Erased."
-msgstr ""
-
-#: includes/Admin/Product_Editor_Compatibility.php:143
-#: includes/Framework/PaymentGateway/Payment_Gateway.php:2616
-#: includes/Gateway/Gift_Card.php:74 includes/Handlers/Products.php:933
-msgid "Square Gift Card"
-msgstr ""
-
-#: includes/Admin/Product_Editor_Compatibility.php:144
-msgid "Enable to create this product as a gift card"
-msgstr ""
-
-#: includes/Admin/Product_Editor_Compatibility.php:163
-#: includes/Handlers/Products.php:332 includes/Handlers/Products.php:821
-#: includes/Handlers/Products.php:855 includes/Handlers/Products.php:866
-msgid "Sync with Square"
-msgstr ""
-
-#: includes/Admin/Product_Editor_Compatibility.php:201
-#. translators: %1$s: Learn more link opening tag. %2$s: Learn more link
-#. closing tag.
-msgid ""
-"Per your %1$sstore settings%2$s, inventory management is "
-"<strong>disabled</strong>."
 msgstr ""
 
 #: includes/Admin/Rest/WC_REST_Square_Cash_App_Settings_Controller.php:82
@@ -329,7 +305,7 @@ msgid "Update existing products during import."
 msgstr ""
 
 #: includes/Admin/Settings_Page.php:187 includes/Admin/Sync_Page.php:397
-#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:62
+#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:64
 msgid "Cancel"
 msgstr ""
 
@@ -449,8 +425,8 @@ msgid "Status"
 msgstr ""
 
 #: includes/Admin/Sync_Page.php:292 includes/Admin/Sync_Page.php:333
-#: includes/Handlers/Order.php:600 includes/Handlers/Products.php:1032
-#: includes/Handlers/Products.php:1230
+#: includes/Handlers/Order.php:594 includes/Handlers/Products.php:1027
+#: includes/Handlers/Products.php:1225
 msgid "Message"
 msgstr ""
 
@@ -516,7 +492,7 @@ msgstr ""
 msgid "Inventory tracking is disabled for this product"
 msgstr ""
 
-#: includes/Admin.php:159 includes/Handlers/Products.php:244
+#: includes/Admin.php:159 includes/Handlers/Products.php:243
 msgid "Synced with Square"
 msgstr ""
 
@@ -907,86 +883,86 @@ msgstr ""
 msgid "Customer ID"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:28
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:30
 msgid "This section contains configuration settings for this gateway."
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:49
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:51
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:1290
 #. translators: environment as in a software environment (test/production)
 msgid "Environment"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:50
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:52
 msgid "The transaction environment for this gateway."
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:57
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:59
 msgid "Tokenization Enabled"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:58
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:60
 msgid "Displays whether or not tokenization is enabled for this gateway."
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:71
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:73
 msgid "Debug Mode"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:72
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:74
 msgid "Displays whether or not debug logging is enabled for this gateway."
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:75
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:77
 msgid "Display at Checkout & Log"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:77
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:79
 msgid "Display at Checkout"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:79
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:81
 msgid "Save to Log"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:81
+#: includes/Framework/PaymentGateway/Admin/views/html-admin-gateway-status.php:83
 msgid "Off"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:26
+#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:28
 msgid "Authorization total"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:30
+#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:32
 msgid "Amount already captured"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:36
+#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:38
 msgid "Remaining order total"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:42
+#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:44
 msgid "Capture amount"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:49
+#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:51
 msgid "Comment (optional):"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:61
+#: includes/Framework/PaymentGateway/Admin/views/html-order-partial-capture.php:63
 #. Translators: %s is the amount to be captured.
 msgid "Capture %s"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-user-payment-token-editor-token.php:69
+#: includes/Framework/PaymentGateway/Admin/views/html-user-payment-token-editor-token.php:71
 msgid "-- Select an option --"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-user-payment-token-editor.php:58
+#: includes/Framework/PaymentGateway/Admin/views/html-user-payment-token-editor.php:60
 msgid "No saved payment tokens"
 msgstr ""
 
-#: includes/Framework/PaymentGateway/Admin/views/html-user-profile-field-customer-id.php:26
+#: includes/Framework/PaymentGateway/Admin/views/html-user-profile-field-customer-id.php:28
 msgid "The gateway customer ID for the user. Only edit this if necessary."
 msgstr ""
 
@@ -1673,7 +1649,7 @@ msgstr ""
 
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:1155
 #: includes/Gateway/Blocks_Handler.php:153 includes/Gateway.php:166
-#: includes/Handlers/Order.php:911
+#: includes/Handlers/Order.php:905
 msgid "Credit Card"
 msgstr ""
 
@@ -1811,6 +1787,11 @@ msgstr ""
 #. translators: Placeholders: %1$s - payment gateway title (such as
 #. Authorize.net, Braintree, etc), %2$s - a monetary amount
 msgid "%1$s Refund in the amount of %2$s approved."
+msgstr ""
+
+#: includes/Framework/PaymentGateway/Payment_Gateway.php:2616
+#: includes/Gateway/Gift_Card.php:74 includes/Handlers/Products.php:928
+msgid "Square Gift Card"
 msgstr ""
 
 #: includes/Framework/PaymentGateway/Payment_Gateway.php:2618
@@ -2381,7 +2362,7 @@ msgstr ""
 
 #: includes/Gateway/Cash_App_Pay_Blocks_Handler.php:142
 #: includes/Gateway/Cash_App_Pay_Gateway.php:247
-#: includes/Handlers/Order.php:913
+#: includes/Handlers/Order.php:907
 msgid "Cash App Pay"
 msgstr ""
 
@@ -2585,7 +2566,7 @@ msgstr ""
 msgid "credit card or cash app pay"
 msgstr ""
 
-#: includes/Gateway/Gift_Card.php:569 includes/Handlers/Order.php:999
+#: includes/Gateway/Gift_Card.php:569 includes/Handlers/Order.php:993
 msgid "credit card"
 msgstr ""
 
@@ -2771,74 +2752,74 @@ msgstr ""
 msgid "Disconnect from Square"
 msgstr ""
 
-#: includes/Handlers/Order.php:588 includes/Handlers/Products.php:1017
-#: includes/Handlers/Products.php:1202
+#: includes/Handlers/Order.php:582 includes/Handlers/Products.php:1012
+#: includes/Handlers/Products.php:1197
 msgid "Sender's name"
 msgstr ""
 
-#: includes/Handlers/Order.php:592 includes/Handlers/Products.php:1022
-#: includes/Handlers/Products.php:1209
+#: includes/Handlers/Order.php:586 includes/Handlers/Products.php:1017
+#: includes/Handlers/Products.php:1204
 msgid "Recipient's email"
 msgstr ""
 
-#: includes/Handlers/Order.php:596 includes/Handlers/Products.php:1027
-#: includes/Handlers/Products.php:1223
+#: includes/Handlers/Order.php:590 includes/Handlers/Products.php:1022
+#: includes/Handlers/Products.php:1218
 msgid "Recipient's name"
 msgstr ""
 
-#: includes/Handlers/Order.php:604 includes/Handlers/Products.php:1216
+#: includes/Handlers/Order.php:598 includes/Handlers/Products.php:1211
 msgid "Gift card number"
 msgstr ""
 
-#: includes/Handlers/Order.php:853
+#: includes/Handlers/Order.php:847
 msgid "Square Gift Card:"
 msgstr ""
 
-#: includes/Handlers/Order.php:859
+#: includes/Handlers/Order.php:853
 #. Translators: %s - last 4 digits of the gift card.
 msgid "ending in %s"
 msgstr ""
 
-#: includes/Handlers/Order.php:918
+#: includes/Handlers/Order.php:912
 #. translators: %1$s - Amount charged on gift card, %2$s -  Amount charged on
 #. credit card.
 msgid "Square Gift Card (%1$s) and %2$s (%3$s)"
 msgstr ""
 
-#: includes/Handlers/Order.php:928
+#: includes/Handlers/Order.php:922
 #. translators: %1$s - Amount charged on gift card.
 msgid "Square Gift Card (%1$s)"
 msgstr ""
 
-#: includes/Handlers/Order.php:996
+#: includes/Handlers/Order.php:990
 #. translators: %1$s - Order total, %2$s - Amount charged on gift card, %3$s -
 #. Other payment method %4$s -  Amount charged on credit card/cash app pay.
 msgid "%1$s — Total split between gift card (%2$s) and %3$s (%4$s)"
 msgstr ""
 
-#: includes/Handlers/Order.php:999
+#: includes/Handlers/Order.php:993
 msgid "cash app pay"
 msgstr ""
 
-#: includes/Handlers/Order.php:1030
+#: includes/Handlers/Order.php:1024
 msgid "Billing country is a mandatory field for Square payment gateway."
 msgstr ""
 
-#: includes/Handlers/Order.php:1055
+#: includes/Handlers/Order.php:1049
 msgid ""
 "Billing country is not set which is required for payment using Square. "
 "Please update the billing country before continuing."
 msgstr ""
 
-#: includes/Handlers/Order.php:1059
+#: includes/Handlers/Order.php:1053
 msgid "Update billing details:"
 msgstr ""
 
-#: includes/Handlers/Order.php:1079
+#: includes/Handlers/Order.php:1073
 msgid "Save details"
 msgstr ""
 
-#: includes/Handlers/Order.php:1120
+#: includes/Handlers/Order.php:1114
 msgid "Customer has updated their billing details from the Pay for order page."
 msgstr ""
 
@@ -2851,14 +2832,14 @@ msgstr ""
 msgid "Product not synced with Square"
 msgstr ""
 
-#: includes/Handlers/Products.php:96
+#: includes/Handlers/Products.php:95
 #. translators: Placeholder: %s - product name
 msgid ""
 "Please add an SKU to sync %s with Square. The SKU must match the item's SKU "
 "in your Square account."
 msgstr ""
 
-#: includes/Handlers/Products.php:98
+#: includes/Handlers/Products.php:97
 #. translators: Placeholder: %s - product name
 msgid ""
 "Please add an SKU to every variation of %s for syncing with Square. Each "
@@ -2866,49 +2847,54 @@ msgid ""
 "account."
 msgstr ""
 
-#: includes/Handlers/Products.php:218
+#: includes/Handlers/Products.php:217
 msgid "Square Onboarding Setup Wizard"
 msgstr ""
 
-#: includes/Handlers/Products.php:219
+#: includes/Handlers/Products.php:218
 msgid ""
 "If you need to access the Square onboarding setup wizard again, please "
 "click on the button below."
 msgstr ""
 
-#: includes/Handlers/Products.php:220
+#: includes/Handlers/Products.php:219
 msgid "Setup wizard"
 msgstr ""
 
-#: includes/Handlers/Products.php:327
+#: includes/Handlers/Products.php:326
 msgid "Update product data with Square data"
 msgstr ""
 
-#: includes/Handlers/Products.php:327
+#: includes/Handlers/Products.php:326
 msgid "Send product data to Square"
 msgstr ""
 
-#: includes/Handlers/Products.php:368
+#: includes/Handlers/Products.php:331 includes/Handlers/Products.php:816
+#: includes/Handlers/Products.php:850 includes/Handlers/Products.php:861
+msgid "Sync with Square"
+msgstr ""
+
+#: includes/Handlers/Products.php:367
 msgid "Sync with Square?"
 msgstr ""
 
-#: includes/Handlers/Products.php:372
+#: includes/Handlers/Products.php:371
 msgid "No change"
 msgstr ""
 
-#: includes/Handlers/Products.php:374
+#: includes/Handlers/Products.php:373
 msgid "No"
 msgstr ""
 
-#: includes/Handlers/Products.php:375
+#: includes/Handlers/Products.php:374
 msgid "Yes"
 msgstr ""
 
-#: includes/Handlers/Products.php:381
+#: includes/Handlers/Products.php:380
 msgid "This product"
 msgstr ""
 
-#: includes/Handlers/Products.php:751
+#: includes/Handlers/Products.php:746
 #. translators: Placeholder: %1$s - date (localized), %2$s - time (localized),
 #. %3$s - opening <a> HTML link tag, %4$s closing </a> HTML link tag
 msgid ""
@@ -2917,54 +2903,54 @@ msgid ""
 "records%4$s."
 msgstr ""
 
-#: includes/Handlers/Products.php:934
+#: includes/Handlers/Products.php:929
 msgid ""
 "Square Gift cards are virtual products that can be purchased by customers "
 "and gifted to one or more recipients. Gift card code holders can redeem and "
 "use them as store credit."
 msgstr ""
 
-#: includes/Handlers/Products.php:1007
+#: includes/Handlers/Products.php:1002
 msgid "Buy a new gift card"
 msgstr ""
 
-#: includes/Handlers/Products.php:1012
+#: includes/Handlers/Products.php:1007
 msgid "Add value to an existing gift card"
 msgstr ""
 
-#: includes/Handlers/Products.php:1038
+#: includes/Handlers/Products.php:1033
 msgid "Enter the Gift Card number"
 msgstr ""
 
-#: includes/Handlers/Products.php:1039
+#: includes/Handlers/Products.php:1034
 msgid "Gift Card number"
 msgstr ""
 
-#: includes/Handlers/Products.php:1120
+#: includes/Handlers/Products.php:1115
 msgid "Sorry, this coupon is not applicable to gift card products."
 msgstr ""
 
-#: includes/Handlers/Products.php:1175
+#: includes/Handlers/Products.php:1170
 msgid "The gift card number field is empty."
 msgstr ""
 
-#: includes/Handlers/Products.php:1183
+#: includes/Handlers/Products.php:1178
 msgid "The gift card number is either invalid or does not exist."
 msgstr ""
 
-#: includes/Handlers/Products.php:1267
+#: includes/Handlers/Products.php:1262
 msgid "Placeholder"
 msgstr ""
 
-#: includes/Handlers/Products.php:1340
+#: includes/Handlers/Products.php:1335
 msgid "You can only add 1 gift card product to your cart per order."
 msgstr ""
 
-#: includes/Handlers/Products.php:1342
+#: includes/Handlers/Products.php:1337
 msgid "View cart"
 msgstr ""
 
-#: includes/Handlers/Products.php:1431
+#: includes/Handlers/Products.php:1426
 msgid "Buy Gift Card"
 msgstr ""
 
